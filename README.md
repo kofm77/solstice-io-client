@@ -4,8 +4,10 @@ A stand-alone ReactJS single page application with a Node.JS backend to load the
 When the application is started, the user will be able to view in a web browser on [localhost:3000](http://localhost:3000/) an app that displays a time series graphical visualization of the utility data.
 This project is created at the request of solstice for a job interview, it's not built for production neither for personal use.
 ## Getting Started
+Please download the NodeJS repository from [HERE](https://github.com/kofm77/solstice-io-server).
 
- if you don't familiar with React and Node, the following links is highly recommended.
+
+ If you don't familiar with React and Node, the following links is highly recommended.
  [Tutorial: Intro To React](https://reactjs.org/tutorial/tutorial.html)
  [Node.js v9.2.0 Documentation](https://nodejs.org/dist/latest-v9.x/docs/api/)
  
@@ -40,7 +42,7 @@ npm install
 We have to start both ReactJS 'FrontEnd' and NodeJS 'BackEnd':
 
 #### Start NodeJS server-part
-using your terminal / cmd, navigate to solstice-io-server:
+Using your terminal / cmd, navigate to solstice-io-server:
 
 ```
 cd solstice-io-server
@@ -55,7 +57,7 @@ If everything went well, you will receive the next message:
 Listening on port 4001
 ```
 #### Start React client-part
-using your terminal / cmd, navigate to solstice-io-server:
+Using your terminal / cmd, navigate to solstice-io-server:
 
 ```
 cd solstice-io-client
